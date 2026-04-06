@@ -11,7 +11,7 @@ let model1, model2, model3,model4,model5;
 //initialize the models as independently callable models
 
 //load model1 me
-gltfLoader.load('public/Models/4_2_2026.glb', (gltf) => {
+gltfLoader.load('Models/4_2_2026.glb', (gltf) => {
   model1 = gltf.scene;
   model1.scale.set(1,1,1);
   scene.add(model1);
